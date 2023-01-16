@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--HEADER SECTION-->
+    <div class="sectionHeader">
+        <h2>BMI CALCULATOR</h2>
+    </div>
+
+    <!--HBODY SECTION-->
+    <div class="calculatorSection">
+        <div class="calculator">
+            <form action="">
+                <div>
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName">
+                </div>
+
+                <div>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName">
+                </div>
+
+                <div>
+                    <label for="mass">Mass (Kg)</label>
+                    <input type="number" name="" id="mass">
+                </div>
+
+                <div>
+                    <label for="height">Height (Meters)</label>
+                    <input type="number" name="" id="height">
+                </div>
+            </form>
+
+            <div class="btnDiv">
+                <button class="btn">Calculate BMI</button>
+            </div>
+        </div>
+    </div>
+
+    <p class="Result"><span class="clientName"></span><span class="clientBMI"></span></p>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
