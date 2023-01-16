@@ -227,13 +227,13 @@ function calcBmi() {
         },100)
     }else {
         if(bmi<18.5){
-            result.textContent="Hello, "+ firstname + "Your BMI value is "+bmi+ ". You fall under the underweight range. Please see a doctor and stay safe. Thank you for using Tikristi's BMI calculator."
+            result.textContent="Hello, "+ firstname.value + " Your BMI value is "+bmi+ " kilogram per meter square. You fall under the underweight range. Please see a doctor and stay safe. Thank you for using Tikristi's BMI calculator."
         } else if(bmi>18.4 && bmi<25){
-            result.textContent="Hello, "+ firstname + "Your BMI value is "+bmi+ ". You fall under the healthy weight rage. Please stay safe and thank you for using Tkristi's BMI calculator."
+            result.textContent="Hello, "+ firstname.value + " Your BMI value is "+bmi+ " kilogram per meter square. You fall under the healthy weight rage. Please stay safe and thank you for using Tkristi's BMI calculator."
         } else if(bmi>25.0 && bmi<30) {
-            result.textContent="Hello, "+ firstname +  "Your BMI value is "+bmi+ ". You fall under the overweight range. Please see a doctor and stay safe. Thank you for using Tikristi's BMI calculator."
+            result.textContent="Hello, "+ firstname.value +  " Your BMI value is "+bmi+ " kilogram per meter square. You fall under the overweight range. Please see a doctor and stay safe. Thank you for using Tikristi's BMI calculator."
         } else{
-            result.textContent="Hello, "+ firstname +  "Your BMI value is "+bmi+ ". You fall under the obesity range. Please see a doctor and stay safe. Thank you for using Tikristi's BMI calculator."
+            result.textContent="Hello, "+ firstname.value +  " Your BMI value is "+bmi+ " kilogram per meter square. You fall under the obesity range. Please see a doctor and stay safe. Thank you for using Tikristi's BMI calculator."
         }
     }
 }
